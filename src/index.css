@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#96e77e  ;
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+   box-sizing: border-box;
+}
+.conteiner {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  font-weight: bold;
+  
+
+
+}
+.title {
+  font-size: 20px;
+  -webkit-text-stroke: 1px black;
+}
+

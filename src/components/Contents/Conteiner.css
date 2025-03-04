@@ -1,0 +1,63 @@
+
+
+.image-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 25%;
+    height: 1000px;
+    position: relative; /* Isso é importante para o posicionamento do texto */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 250px;
+    box-shadow: 0 10px 15px rgba(43, 247, 2, 0.5);
+    margin-top: 50px;
+    margin-left: 25px;
+    animation: moveAround 5s ease-in-out infinite;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os ícones */
+    margin-top: 20px;
+}
+.social-icons i {
+    font-size: 25px; /* Ajuste o tamanho dos ícones */
+    color: white; /* Cor dos ícones */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.social-icons i:hover {
+    transform: scale(1.1); /* Efeito de aumentar o ícone quando o cursor passar por cima */
+}
+.infor {
+    margin-top: 30px;  /* Add space above the info section */
+}
+.content {
+    
+    bottom: 20px; /* Distância do fundo da imagem */
+    color: white; /* Texto branco para contrastar com o fundo escuro */
+    text-align: center;
+    font-size: 18px;
+}
+@keyframes moveAround {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(20px) translateY(-10px); /* Movimenta para a direita e para cima */
+    }
+    50% {
+        transform: translateX(0) translateY(0); /* Retorna à posição original */
+    }
+    75% {
+        transform: translateX(-20px) translateY(10px); /* Movimenta para a esquerda e para baixo */
+    }
+    100% {
+        transform: translateX(0) translateY(0); /* Retorna à posição original */
+    }
+}

@@ -1,0 +1,78 @@
+CSS 
+.color1 { #839b77 };
+.color2 { #738a67 };
+.color3 { #627957 };
+.color4 { #526846 };
+.color5 { #415736 };
+
+.color1 { #6a7664 };
+.color2 { #4f594b };
+.color3 { #353b32 };
+.color4 { #1a1e19 };
+.color5 { #000000 };
+
+.color1 { #4a9f37 };
+.color2 { #63b74f };
+.color3 { #7dcf66 };
+.color4 { #96e77e };
+.color5 { #afff95 };
+
+
+<section className='conteiner'> 
+       <div>
+          <p className='title'>
+            Olá Sou <br/>
+            <span>Marcos Araújo</span><br/>
+            Dev Full-Stack
+          </p>
+          <button> 
+        Saiba mais sobre algo
+        </button>
+        </div>
+        
+       <figure className='conteiner'>
+       {/* <img src="../img/img2.svg" alt="imagen Home" /> */}
+       </figure>
+
+       </section> 
+
+
+
+       import "./Conteiner.css";
+
+function Conteiner() {
+    return (
+        <div className="container">
+            <div className="image-container">
+                <div className="image-placeholder">
+                    <img src="./img/1.jpeg" alt="Imagem de perfil" />
+                    <div className="content">
+                        <h2>Marcos Araújo</h2>
+                        <p>Dev Full-Stack</p>
+                        <div className="social-icons">
+                            <img src="./icons/facebook.svg" alt="Facebook" />
+                            <img src="./icons/twitter.svg" alt="Twitter" />
+                            <img src="./icons/linkedin.svg" alt="LinkedIn" />
+                            <img src="./icons/github.svg" alt="GitHub" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Conteiner;
+
+
+<a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-github"></i>
