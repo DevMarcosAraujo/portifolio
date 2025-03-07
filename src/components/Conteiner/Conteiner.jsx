@@ -1,11 +1,12 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import "./Conteiner.css"
+
 function Conteiner() {
     return (
         <div className="container">
             <div className="image-container">
                 <div className="image-placeholder">
-                    <img src="../../../img/1.jpeg" alt="" />
+                  <img src="./img/1.jpeg" alt="" />
                     <div className="content">
                         <h2>Marcos Araújo</h2>
                 <p> Dev Full-Stack </p>
