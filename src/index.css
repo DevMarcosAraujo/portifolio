@@ -1,29 +1,36 @@
+/* Estilos globais */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#96e77e  ;
-  
+  background-color: #96e77e;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
-.conteiner {
-  display: flex;
-  justify-content: space-around;
-  color: white;
-  align-items: center;
-  font-weight: bold;
-  
 
-
-}
 .title {
   font-size: 20px;
   -webkit-text-stroke: 1px black;
 }
 
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+  .conteiner {
+    flex-direction: column; /* Muda a direção dos itens */
+  }
+  .title {
+    font-size: 18px; /* Reduz o tamanho do título */
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 16px; /* Ajusta para telas muito pequenas */
+  }
+}

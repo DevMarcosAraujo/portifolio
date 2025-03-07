@@ -1,32 +1,77 @@
-
-header{
+.Header {
     display: flex;
-    padding: 10px;
-    background-color:#415736; 
-    width: 100%;
-    height: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 15px 20px;
+    position: relative;
 }
-a {
+
+/* Estilização do botão hambúrguer */
+.menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none; /* Só aparece no mobile */
+}
+
+/* Menu padrão no desktop */
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    color: white;
     text-decoration: none;
-    color: inherit;
-    font-size: 25px;
-   padding-right: 18px;
-   color: #839b77;
-   
+    font-size: 18px;
 }
-span{
-    font-size: 32px;
-    font-weight: bold;
-    cursor: pointer; 
-    color: #4a9f37 ;
-    margin-top: 0; 
-    
-}
-span:hover{
-    color:  #7dcf66;
-}
-header a:hover{
-    color: #353b32;
+
+/* Responsividade: ativa o menu hambúrguer no mobile */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Mostra o botão */
+    }
+
+    .nav {
+        display: none; /* Esconde o menu padrão */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%; /* Garantir que ocupe toda a largura da tela */
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 999; /* Garantir que o menu fique acima de outros elementos */
+    }
+
+    .nav.open {
+        display: flex; /* Mostra o menu ao clicar */
+    }
+
+    .nav a {
+        padding: 10px;
+        text-align: center;
+        display: block;
+        color: white;
+        background: transparent;
+        transition: background 0.3s, color 0.3s; /* Efeito suave */
+    }
+
+    /* 🟡 Efeito ao passar o mouse */
+    .nav a:hover {
+        background: #ffcc00; /* Cor amarela */
+        color: black;
+    }
+
+    /* 🔴 Efeito ao clicar */
+    .nav a:active {
+        background: #ff5733; /* Cor vermelha */
+        color: white;
+    }
 }
 

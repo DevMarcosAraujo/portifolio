@@ -4,7 +4,8 @@ import './App.css'
 import Header from './components/Header/Header'
 
 import Fooder from './components/Fooder/Fooder'
-import Conteiner from './components/Contents/Conteiner'
+import Conteiner from './components/Conteiner/Conteiner'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
     <>
     <Header />
     <Conteiner />
-       
+     
      
      <Fooder />
     </>
