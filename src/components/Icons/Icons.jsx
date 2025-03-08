@@ -15,7 +15,9 @@ export function React (props) {
         </g>
       </svg>
     )
-  }
+  } 
+
+
   export function Html5i(props) {
     return (
       <svg
@@ -41,6 +43,7 @@ export function React (props) {
       </svg>
     )
   }
+  
   export function Javascript(props) {
     return (
       <svg
@@ -215,5 +218,6 @@ export function React (props) {
       </svg>
     )
   }
+  export default React ;
   
   
