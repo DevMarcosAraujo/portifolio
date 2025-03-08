@@ -1,19 +1,23 @@
 /* Estilos globais */
 /* fonte google*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans&family=Source+Code+Pro:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans&family=Source+Code+Pro:wght@200..900&display=swap');
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Source Code Pro", monospace;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #96e77e;
+  background-image: url('../public/img/gifer.gif');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 .title {

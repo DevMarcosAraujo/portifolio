@@ -9,8 +9,9 @@ function App() {
 
   return (
     <>
+     
       <Header />
-      <Conteiner />
+      < Conteiner />
       <Fooder />
     </>
   )

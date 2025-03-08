@@ -5,11 +5,11 @@ import './Fooder.css';
 function Fooder() {
     return (
         <header className='Fooder'>
-            <span> MA </span>
+            
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contatos</a>
+               <div>
+               <span> Sistema em construção  </span>
+               </div>
             </nav>
         </header>
     )

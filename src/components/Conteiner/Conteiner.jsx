@@ -6,7 +6,7 @@ function Conteiner() {
         <div className="container">
             <div className="image-container">
                 <div className="image-placeholder">
-                  <img src="./img/1.jpeg" alt="" />
+                  <img src="./../img/1.jpeg" alt="" />
                     <div className="content">
                         <h2>Marcos Araújo</h2>
                 <p> Dev Full-Stack </p>
@@ -18,12 +18,9 @@ function Conteiner() {
                     <i className="fab fa-github"></i>
                 </div>  
                 <div className='infor'> 
-                <h3>Data de nascimento</h3> 
-                <p>23 de maio de 1991</p>
-                <h3>Naturalidade</h3>
-                <p>Brasileiro</p>
-                <h3>Carteira de motorista</h3>
-                <p>AB</p>
+                <p>TECNOLOGIAS</p>
+                    
+
                 </div>  
             </div>
                 </div>
