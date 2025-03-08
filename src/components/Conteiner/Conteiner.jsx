@@ -1,8 +1,9 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import "./Conteiner.css"
-
+import  { Html5i, React, Javascript, LogoCss3, Github, ApiApp, Postman, AdobePhotoshop } from "../Icons/Icons"
 function Conteiner() {
     return (
+       
         <div className="container">
             <div className="image-container">
                 <div className="image-placeholder">
@@ -19,7 +20,20 @@ function Conteiner() {
                 </div>  
                 <div className='infor'> 
                 <p>TECNOLOGIAS</p>
-                    
+                <div > 
+                    <React /> 
+                    <Html5i />
+                    <Javascript />
+                    <LogoCss3 />
+                                   
+                </div>
+                <div>
+                   <Github />
+                   <ApiApp />
+                   <Postman />
+                   <AdobePhotoshop />
+                </div>
+                  
 
                 </div>  
             </div>

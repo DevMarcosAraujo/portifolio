@@ -11,6 +11,27 @@
     padding: 20px;
     margin-left: 0; /* Mantém no canto esquerdo em telas grandes */
 }
+.infor {
+    margin-top: 20px; /* Dá um espaço entre o título e os ícones */
+}
+
+.infor div {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones */
+    gap: 15px; /* Adiciona espaçamento entre os ícones */
+    margin-bottom: 15px; /* Espaço entre as duas linhas de ícones */
+}
+
+.infor svg {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease, scale 0.3s ease; /* Efeito de transição */
+}
+
+.infor svg:hover {
+    transform: translateY(-5px) scale(1.2); /* Aumenta e move os ícones ao passar o mouse */
+}
+
 
 /* Ajuste da imagem */
 img {

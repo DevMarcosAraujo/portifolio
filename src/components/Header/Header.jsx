@@ -15,9 +15,10 @@ function Header() {
 
             {/* Menu de navegação */}
             <nav className={menuOpen ? "nav open" : "nav"}>
-                <a href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contatos</a>
+                <a href="#">Sobre Mim</a>
+                <a href="#">Conhecimentos</a>
+                <a href="#">Esperiência</a>
+                <a href="#">Projetos</a>
             </nav>
         </header>
     );
